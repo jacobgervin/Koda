@@ -9,7 +9,7 @@ Template:     Astra
 
 .wp-block-button .wp-block-button__link {
     background-color: #312f2f;
-    margin-top: 75px;
+    margin-top: 120px;
     border: solid 1px black;
     color: white;
 }
@@ -24,7 +24,11 @@ padding-right: 34px;
 padding-bottom: 11px;
 padding-left: 34px;
 font-size: 20px;
-border-radius: 15px;
+border-radius: 25px;
+}
+
+.wp-block-button .wp-block-button__link:hover {
+    background-color: rgb(70, 69, 69);
 }
 
 a, .page-title {
@@ -40,4 +44,15 @@ body {
 }
 .main-header-menu .menu-link, .main-header-menu>a {
     font-size: 17px;
+}
+
+@media only screen and (max-width: 955px) {
+    .entry-content p {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .background-banner {
+        height: 275px;
+    }
+    
 }
