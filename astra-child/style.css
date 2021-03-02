@@ -4,3 +4,12 @@ Description:  Astra Child Theme
 Author:       Jacob Gervin
 Template:     Astra
 */
+.wp-block-button .wp-block-button__link {
+    background-color: orange;
+    margin-top: 2000px;
+}
+
+.entry-content p {
+    margin-left: 20.6rem;
+    margin-right: 20.6rem;
+}
